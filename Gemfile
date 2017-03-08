@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 
+
 gem 'rails'
 
 gem 'puma'
@@ -21,7 +22,7 @@ gem 'jbuilder'
 
 gem 'bcrypt'
 
- 
+
 
 group :development, :test do
   
@@ -34,7 +35,7 @@ end
 
 
 group :development do
-
+  
 gem 'web-console'
   
 gem 'listen'
@@ -61,14 +62,11 @@ end
 
 
 
-
-
-
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-
-# ...$ gem install --without production
-# ...$ bundle update 
+# ...$ bundle install --without production
+# ...$ bundle update
 # ...$ gem list
-# ...$ bundle show
+# ...$ bundle show 
